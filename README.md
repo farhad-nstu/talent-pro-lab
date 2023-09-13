@@ -5,5 +5,5 @@
 2. Then serve the laravel project and login for admin access
 
     for login you find here username and password.
-    username: admin@gmail.com
+    username: admin@gmail.com 
     Password: password
