@@ -1,25 +1,9 @@
-1. Clone project using below command
+1. First run the below command. After running the command you will give a complete scafoliding and credentials for login as admin.
 
-    git clone https://github.com/farhad-nstu/bf-lab.git 
+    php artisan migrate:fresh --seed
 
-2. Install/Update composer using below command
+2. Then serve the laravel project and login for admin access
 
-    composer install
-
-3. If composer install not work then run below command
-
-    composer update
-
-4. Setup the environment with databse
-
-5. Run below migration command with seed
-
-    php artisan migrate --seed
-
-6. Then you find several user
-
-    admin@gmail.com, superadmin@gmail.com (Both have all access in application)
-    user@gmail.com, moderator@gmail.com (Only task related access is given)
-    For both use password (all in small letter) as password
-
-https://github.com/farhad-nstu/bf-lab/assets/50442242/f40c5d71-67f7-4ebe-87d2-6d100ba8204b
+    for login you find here username and password.
+    username: admin@gmail.com
+    Password: password
